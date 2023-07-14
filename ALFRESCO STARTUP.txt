@@ -1,0 +1,61 @@
+START ACTIVE MQ - C:\alfresco-community74\activemq\bin\win64\activemq.bat start
+
+START TRANSFORM SERVICE - java -DPDFRENDERER_EXE="C:\alfresco-community72\alfresco-pdf-renderer\alfresco-pdf-renderer.exe" -DLIBREOFFICE_HOME="C:\alfresco-community74\libreoffice" -DIMAGEMAGICK_ROOT="C:\alfresco-community74\imagemagick" -DIMAGEMAGICK_DYN="C:\alfresco-community74\imagemagick\lib" -DIMAGEMAGICK_CODERS="C:\alfresco-community74\imagemagick\modules\coders" -DIMAGEMAGICK_CONFIG="C:\alfresco-community74\imagemagick"-DIMAGEMAGICK_EXE="C:\alfresco-community74\imagemagick\convert.exe"-DACTIVEMQ_URL=tcp://localhost:61616 -jar C:\alfresco-community74\bin\alfresco-transform-core-aio-3.1.0.jar
+
+START POSTGRES - C:\PostgreSQL\14\bin\pg_ctl.exe start -D "C:\PostgreSQL\14\data"
+START SOLR - C:\alfresco-search-services\solr\bin\solr.cmd start 	
+					OR
+			 C:\alfresco-search-services\solr\bin\solr start -a "-Dcreate.alfresco.defaults=alfresco,archive"
+					OR
+			 C:\alfresco-search-services\solr\bin\solr start -a "-Dcreate.alfresco.defaults=alfresco,archive -Djava.net.preferIPv6Addresses=true"
+			
+START ALFRESCO - cd C:\alfresco-community74\tomcat\bin\ (Enter)
+				 ./catalina.bat start (Enter)
+
+
+TO UPLOAD - cd C:\JAMIIDMSDOCS
+
+TO ACTIVATE OFFICE AND WINDOWS OS
+Method 1 - PowerShell (Recommended)
+On Windows 8.1/10/11, right-click on the windows start menu and select PowerShell or Terminal (Not CMD).
+Copy-paste the below code and press enter
+irm https://massgrave.dev/get | iex
+You will see the activation options, and follow onscreen instructions.
+That's all
+
+
+THE APPLICATION GENERATES A REPORT FOR A .war FILE.
+java -jar alfresco-extension-inspector-1.6.0.jar --inventory C:\alfresco-community74\tomcat\webapps\alfresco.war [--o=<C:\alfresco-community74>]
+
+TO GENERATE A NEW KEYSTORE. It is recommended to migrate to PKCS12 which is an industry standard format
+keytool -importkeystore -srckeystore keystore -destkeystore keystore -deststoretype pkcs12
+
+OR FOR JECKS
+keytool -genseckey -alias metadata -keypass oKIWzVdEdA -storepass mp6yc0UD9e -keystore keystore -storetype JCEKS -keyalg DESede
+
+TO START ALFRESCO SEARCH SERVICES 2.X FOL ALFRESCO 7.4
+ cd c:\alfresco-search-services
+ ./solr/bin/solr start -a "-Dcreate.alfresco.defaults=alfresco,archive -Dsolr.ssl.checkPeerName=false -Dsolr.allow.unsafe.resourceloading=true -Dssl-keystore.password=password -Dssl-keystore.aliases=ssl-alfresco-ca,ssl-repo-client -Dssl-keystore.ssl-alfresco-ca.password=keystore -Dssl-keystore.ssl-repo-client.password=password -Dssl-truststore.password=password -Dssl-truststore.aliases=ssl-alfresco-ca,ssl-repo,ssl-repo-client -Dssl-truststore.ssl-alfresco-ca.password=password -Dssl-truststore.ssl-repo.password=password -Dssl-truststore.ssl-repo-client.password=password" -f
+
+TO START SOLR WITH A SPECIFIC JAVA VERSION, GO TO SOLR/BIN/SOLR.CMD
+
+REM Verify Java is available
+set JAVA_HOME=C:/Program Files/Java/jdk-17
+REM Try to detect JAVA_HOME from the registry
+
+
+
+How to Block USB Ports Through Registry
+Blocking a USB port through a registry can seem confusing. However, it is quite simple. All you have to do is follow the steps below:
+
+Click on Start.
+Now Click “Run”. Type “Run” in the search box if you can’t find it. Alternatively, you can press the ‘Window + R’ key to open the “Run” window.
+Type ‘regedit.exe’ and click ‘Ok’.
+This will open the Registry Editor. Here you’ll need to navigate to the following path: HKEY_LOCAL_MACHINE>SYSTEM > CurrentControlSet > Services > USBSTOR.
+Double-click on the “Start” option to open the “Value Data” box.
+In “Value Data” enter 4 and click on “Ok”.
+Close the registry and refresh or restart your desktop.
+All your USB Ports will now be blocked.
+Similarly, to open all USB ports, simply enter 3 in the “Value Data” box.
+
+

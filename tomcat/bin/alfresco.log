@@ -1,0 +1,702 @@
+2023-07-10 14:16:19,272 WARN  [org.alfresco.heartbeat.datasender.HBDataSenderServiceBuilder] [main] Setting the Heartbeat sender cron with property 'heartbeat.sender.cronExpression' is no longer supported.
+2023-07-10 14:16:21,479 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Ignoring script patch (post-Hibernate): patch.db-V4.2-metadata-query-indexes
+2023-07-10 14:16:21,479 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Ignoring script patch (post-Hibernate): patch.db-V5.1-metadata-query-indexes
+2023-07-10 14:16:21,480 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Ignoring script patch (post-Hibernate): patch.db-V5.2-remove-jbpm-tables-from-db
+2023-07-10 14:16:21,481 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Ignoring script patch (post-Hibernate): patch.db-V6.3-add-indexes-node-transaction
+2023-07-10 14:16:21,481 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Ignoring script patch (post-Hibernate): patch.db-V7.1.0-remove-alf_server-table
+2023-07-10 14:16:22,393 INFO  [org.alfresco.repo.admin] [main] Using database URL 'jdbc:postgresql://localhost:5432/alfresco' with user 'alfresco'.
+2023-07-10 14:16:22,396 INFO  [org.alfresco.repo.admin] [main] Connected to database PostgreSQL version 14.8
+2023-07-10 14:16:34,119 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+2023-07-10 14:16:34,405 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1] complete
+2023-07-10 14:16:39,446 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [main] Registered template processor Repository Template Processor for extension ftl
+2023-07-10 14:16:39,453 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [main] Registered script processor Repository Script Processor for extension js
+2023-07-10 14:16:44,586 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+2023-07-10 14:16:44,687 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted] complete
+2023-07-10 14:16:44,886 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Connecting to database: 952593609, URL=jdbc:postgresql://localhost:5432/alfresco, PostgreSQL JDBC Driver
+2023-07-10 14:16:44,887 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Schema managed by database dialect org.alfresco.repo.domain.dialect.PostgreSQLDialect.
+2023-07-10 14:16:45,020 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Applied patches detected: 224
+2023-07-10 14:16:45,130 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Checking and patching Alfresco tables took 109 ms
+2023-07-10 14:16:45,161 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Activiti tables need to be checked for patches
+2023-07-10 14:16:45,248 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Checking and patching Activiti tables took 87 ms
+2023-07-10 14:16:45,377 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Checking that all patches have been applied took 87 ms
+2023-07-10 14:16:45,377 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Updating the DB schema took 487 ms
+2023-07-10 14:16:45,380 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] No changes were made to the schema.
+2023-07-10 14:16:47,038 INFO  [org.alfresco.repo.admin.ConfigurationChecker] [main] The root data directory ('dir.root') is: C:\alfresco-community74\alf_data
+2023-07-10 14:16:47,088 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] [main] Checking for patches to apply ...
+2023-07-10 14:16:47,691 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] [main] No patches were required.
+2023-07-10 14:16:47,706 INFO  [org.alfresco.repo.module.ModuleServiceImpl] [main] Found 2 module package(s).
+2023-07-10 14:16:47,780 INFO  [org.alfresco.repo.module.ModuleServiceImpl] [main] Starting module 'alfresco-share-services' version 20.164.
+2023-07-10 14:16:47,821 INFO  [org.alfresco.repo.module.ModuleServiceImpl] [main] Starting module 'alfresco-trashcan-cleaner' version 2.4.1.
+2023-07-10 14:16:47,837 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'fileServers' subsystem, ID: [fileServers, default]
+2023-07-10 14:16:48,589 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'fileServers' subsystem, ID: [fileServers, default] complete
+2023-07-10 14:16:48,589 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'imap' subsystem, ID: [imap, default]
+2023-07-10 14:16:48,738 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'imap' subsystem, ID: [imap, default] complete
+2023-07-10 14:16:48,738 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'email' subsystem, ID: [email, outbound]
+2023-07-10 14:16:49,854 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'email' subsystem, ID: [email, outbound] complete
+2023-07-10 14:16:49,855 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'email' subsystem, ID: [email, inbound]
+2023-07-10 14:16:50,009 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'email' subsystem, ID: [email, inbound] complete
+2023-07-10 14:16:50,009 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'Subscriptions' subsystem, ID: [Subscriptions, default]
+2023-07-10 14:16:50,055 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'Subscriptions' subsystem, ID: [Subscriptions, default] complete
+2023-07-10 14:16:50,116 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'Synchronization' subsystem, ID: [Synchronization, default]
+2023-07-10 14:16:50,243 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'sysAdmin' subsystem, ID: [sysAdmin, default]
+2023-07-10 14:16:50,282 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'sysAdmin' subsystem, ID: [sysAdmin, default] complete
+2023-07-10 14:16:50,451 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'Synchronization' subsystem, ID: [Synchronization, default] complete
+2023-07-10 14:16:50,503 INFO  [org.alfresco.service.descriptor.DescriptorService] [main] Alfresco JVM - v17.0.4+11-LTS-179; maximum heap size 1004.000MB
+2023-07-10 14:16:50,503 INFO  [org.alfresco.service.descriptor.DescriptorService] [main] Server Mode :UNKNOWN
+2023-07-10 14:16:50,511 INFO  [org.alfresco.service.descriptor.DescriptorService] [main] Alfresco Content Services started (Community). Current version: 7.4.0 (rdc73418c-b165) schema 18,000. Originally installed version: 7.4.0 (rdc73418c-b165) schema 18,000.
+2023-07-10 14:16:50,524 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'ActivitiesFeed' subsystem, ID: [ActivitiesFeed, default]
+2023-07-10 14:16:51,060 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'ActivitiesFeed' subsystem, ID: [ActivitiesFeed, default] complete
+2023-07-10 14:16:51,062 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'Replication' subsystem, ID: [Replication, default]
+2023-07-10 14:16:51,093 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'Replication' subsystem, ID: [Replication, default] complete
+2023-07-10 14:16:52,910 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'Messaging' subsystem, ID: [Messaging, default]
+2023-07-10 14:16:58,276 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'Messaging' subsystem, ID: [Messaging, default] complete
+2023-07-10 14:17:10,198 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 376 Web Scripts (+0 failed), 520 URLs
+2023-07-10 14:17:10,207 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 1 Package Description Documents (+0 failed) 
+2023-07-10 14:17:10,208 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 0 Schema Description Documents (+0 failed) 
+2023-07-10 14:17:12,918 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 376 Web Scripts (+0 failed), 520 URLs
+2023-07-10 14:17:12,919 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 1 Package Description Documents (+0 failed) 
+2023-07-10 14:17:12,919 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 0 Schema Description Documents (+0 failed) 
+2023-07-10 14:17:12,935 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [main] Initialised Repository Web Script Container (in 14049.258ms)
+2023-07-10 14:17:13,040 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [main] Registered template processor freemarker for extension ftl
+2023-07-10 14:17:13,069 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [main] Registered script processor javascript for extension js
+2023-07-10 14:17:15,485 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 376 Web Scripts (+0 failed), 520 URLs
+2023-07-10 14:17:15,485 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 1 Package Description Documents (+0 failed) 
+2023-07-10 14:17:15,486 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 0 Schema Description Documents (+0 failed) 
+2023-07-10 14:17:15,754 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 14 Web Scripts (+0 failed), 103 URLs
+2023-07-10 14:17:15,755 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 0 Package Description Documents (+0 failed) 
+2023-07-10 14:17:15,755 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 0 Schema Description Documents (+0 failed) 
+2023-07-10 14:17:15,901 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 14 Web Scripts (+0 failed), 103 URLs
+2023-07-10 14:17:15,902 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 0 Package Description Documents (+0 failed) 
+2023-07-10 14:17:15,902 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 0 Schema Description Documents (+0 failed) 
+2023-07-10 14:17:15,907 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [main] Initialised Public Api Web Script Container (in 2778.7566ms)
+2023-07-10 14:17:15,962 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 14 Web Scripts (+0 failed), 103 URLs
+2023-07-10 14:17:15,968 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 0 Package Description Documents (+0 failed) 
+2023-07-10 14:17:15,968 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 0 Schema Description Documents (+0 failed) 
+2023-07-10 14:17:16,359 WARN  [org.alfresco.web.scripts.servlet.X509ServletFilterBase] [main] clientAuth does not appear to be set for Tomcat. clientAuth must be set to 'want' for X509 Authentication
+2023-07-10 14:17:16,360 WARN  [org.alfresco.web.scripts.servlet.X509ServletFilterBase] [main] Attempting to set clientAuth=want through JMX...
+2023-07-10 14:17:16,372 WARN  [org.alfresco.web.scripts.servlet.X509ServletFilterBase] [main] Unable to set clientAuth=want through JMX.
+2023-07-10 14:18:36,065 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [http-nio-8080-exec-1] Starting 'Search' subsystem, ID: [Search, managed, solr6]
+2023-07-10 14:18:36,765 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [http-nio-8080-exec-1] Startup of 'Search' subsystem, ID: [Search, managed, solr6] complete
+2023-07-10 14:25:52,879 ERROR [org.springframework.extensions.webscripts.AbstractRuntime] [http-nio-8080-exec-5] Exception from executeScript: 06100001 Wrapped Exception (with status template): 06100038 Failed to execute script 'classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js': 06100037 Failed to execute search:  +@cm\:modified:[2023\-7\-3T00\:00\:00.000 TO 2023\-7\-10T23\:59\:59.999] +@cm\:modifier:"admin" +TYPE:"cm:content" -TYPE:"cm:systemfolder" -TYPE:"fm:forums" -TYPE:"fm:forum" -TYPE:"fm:topic" -TYPE:"fm:post" +(TYPE:"content" OR TYPE:"app:filelink" OR TYPE:"folder")
+org.springframework.extensions.webscripts.WebScriptException: 06100001 Wrapped Exception (with status template): 06100038 Failed to execute script 'classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js': 06100037 Failed to execute search:  +@cm\:modified:[2023\-7\-3T00\:00\:00.000 TO 2023\-7\-10T23\:59\:59.999] +@cm\:modifier:"admin" +TYPE:"cm:content" -TYPE:"cm:systemfolder" -TYPE:"fm:forums" -TYPE:"fm:forum" -TYPE:"fm:topic" -TYPE:"fm:post" +(TYPE:"content" OR TYPE:"app:filelink" OR TYPE:"folder")
+	at org.springframework.extensions.webscripts.AbstractWebScript.createStatusException(AbstractWebScript.java:1139) ~[spring-webscripts-8.40.jar:8.40]
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:171) ~[spring-webscripts-8.40.jar:8.40]
+	at org.alfresco.repo.web.scripts.RepositoryContainer.lambda$transactionedExecute$2(RepositoryContainer.java:553) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.alfresco.repo.transaction.RetryingTransactionHelper.doInTransaction(RetryingTransactionHelper.java:452) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecute(RepositoryContainer.java:544) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecuteAs(RepositoryContainer.java:685) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecuteAs(RepositoryContainer.java:721) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryContainer.executeScriptInternal(RepositoryContainer.java:413) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryContainer.executeScript(RepositoryContainer.java:309) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.springframework.extensions.webscripts.AbstractRuntime.executeScript(AbstractRuntime.java:423) ~[spring-webscripts-8.40.jar:8.40]
+	at org.springframework.extensions.webscripts.AbstractRuntime.executeScript(AbstractRuntime.java:210) ~[spring-webscripts-8.40.jar:8.40]
+	at org.springframework.extensions.webscripts.servlet.WebScriptServlet.service(WebScriptServlet.java:131) ~[spring-webscripts-8.40.jar:8.40]
+	at org.alfresco.repo.web.scripts.AlfrescoWebScriptServlet.service(AlfrescoWebScriptServlet.java:43) ~[alfresco-remote-api-20.164.jar:20.164]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.75]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.75]
+	at org.springframework.extensions.webscripts.servlet.SecurityHeadersFilter.doFilter(SecurityHeadersFilter.java:177) ~[spring-webscripts-8.40.jar:8.40]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.75]
+	at org.alfresco.web.app.servlet.GlobalLocalizationFilter.doFilter(GlobalLocalizationFilter.java:68) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.75]
+	at org.alfresco.web.app.servlet.ClearSecurityContextFilter.doFilter(ClearSecurityContextFilter.java:53) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[catalina.jar:9.0.75]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.75]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.75]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-coyote.jar:9.0.75]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-coyote.jar:9.0.75]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.75]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.75]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.75]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.75]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: org.alfresco.scripts.ScriptException: 06100038 Failed to execute script 'classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js': 06100037 Failed to execute search:  +@cm\:modified:[2023\-7\-3T00\:00\:00.000 TO 2023\-7\-10T23\:59\:59.999] +@cm\:modifier:"admin" +TYPE:"cm:content" -TYPE:"cm:systemfolder" -TYPE:"fm:forums" -TYPE:"fm:forum" -TYPE:"fm:topic" -TYPE:"fm:post" +(TYPE:"content" OR TYPE:"app:filelink" OR TYPE:"folder")
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.execute(RhinoScriptProcessor.java:278) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.processor.ScriptServiceImpl.execute(ScriptServiceImpl.java:239) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.processor.ScriptServiceImpl.executeScript(ScriptServiceImpl.java:181) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryScriptProcessor.executeScript(RepositoryScriptProcessor.java:109) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.springframework.extensions.webscripts.AbstractWebScript.executeScript(AbstractWebScript.java:1376) ~[spring-webscripts-8.40.jar:8.40]
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:86) ~[spring-webscripts-8.40.jar:8.40]
+	... 43 more
+Caused by: org.alfresco.error.AlfrescoRuntimeException: 06100037 Failed to execute search:  +@cm\:modified:[2023\-7\-3T00\:00\:00.000 TO 2023\-7\-10T23\:59\:59.999] +@cm\:modifier:"admin" +TYPE:"cm:content" -TYPE:"cm:systemfolder" -TYPE:"fm:forums" -TYPE:"fm:forum" -TYPE:"fm:topic" -TYPE:"fm:post" +(TYPE:"content" OR TYPE:"app:filelink" OR TYPE:"folder")
+	at org.alfresco.repo.jscript.Search.queryResultMeta(Search.java:1127) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.jscript.Search.queryResultSet(Search.java:819) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.jscript.Search.query(Search.java:560) ~[alfresco-repository-20.164.jar:20.164]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:206) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:211) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:35) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6._c_getDoclist_20(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js:1127) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6.call(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js) ~[?:?]
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:66) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6._c_script_0(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js:1352) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6.call(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js) ~[?:?]
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:380) ~[rhino-1.7.14.jar:1.7.14]
+	at org.alfresco.repo.jscript.AlfrescoContextFactory.doTopCall(AlfrescoContextFactory.java:127) ~[alfresco-repository-20.164.jar:20.164]
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3868) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6.call(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6.exec(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js) ~[?:?]
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.executeScriptImpl(RhinoScriptProcessor.java:589) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.execute(RhinoScriptProcessor.java:274) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.processor.ScriptServiceImpl.execute(ScriptServiceImpl.java:239) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.processor.ScriptServiceImpl.executeScript(ScriptServiceImpl.java:181) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryScriptProcessor.executeScript(RepositoryScriptProcessor.java:109) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.springframework.extensions.webscripts.AbstractWebScript.executeScript(AbstractWebScript.java:1376) ~[spring-webscripts-8.40.jar:8.40]
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:86) ~[spring-webscripts-8.40.jar:8.40]
+	... 43 more
+Caused by: org.alfresco.repo.search.QueryParserException: 06100036 
+	at org.alfresco.repo.search.impl.solr.SolrQueryHTTPClient.executeQuery(SolrQueryHTTPClient.java:594) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.search.impl.solr.SolrQueryLanguage.executeQuery(SolrQueryLanguage.java:52) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.search.impl.solr.SolrSearchService.query(SolrSearchService.java:354) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.search.SearcherComponent.query(SearcherComponent.java:84) ~[alfresco-repository-20.164.jar:20.164]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.alfresco.repo.management.subsystems.SubsystemProxyFactory$1.invoke(SubsystemProxyFactory.java:79) ~[alfresco-repository-20.164.jar:20.164]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at jdk.proxy2.$Proxy45.query(Unknown Source) ~[?:?]
+	at org.alfresco.repo.search.impl.SearchServiceSubSystemDelegator.query(SearchServiceSubSystemDelegator.java:133) ~[alfresco-repository-20.164.jar:20.164]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.27.jar:5.3.27]
+	at net.sf.acegisecurity.intercept.method.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:80) ~[acegi-security-0.8.2_patched.jar:?]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.alfresco.repo.security.permissions.impl.ExceptionTranslatorMethodInterceptor.invoke(ExceptionTranslatorMethodInterceptor.java:53) ~[alfresco-repository-20.164.jar:20.164]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.alfresco.repo.audit.AuditMethodInterceptor.invoke(AuditMethodInterceptor.java:166) ~[alfresco-repository-20.164.jar:20.164]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at jdk.proxy2.$Proxy45.query(Unknown Source) ~[?:?]
+	at org.alfresco.repo.jscript.Search.queryResultMeta(Search.java:1016) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.jscript.Search.queryResultSet(Search.java:819) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.jscript.Search.query(Search.java:560) ~[alfresco-repository-20.164.jar:20.164]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:206) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:211) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:35) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6._c_getDoclist_20(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js:1127) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6.call(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js) ~[?:?]
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:66) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6._c_script_0(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js:1352) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6.call(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js) ~[?:?]
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:380) ~[rhino-1.7.14.jar:1.7.14]
+	at org.alfresco.repo.jscript.AlfrescoContextFactory.doTopCall(AlfrescoContextFactory.java:127) ~[alfresco-repository-20.164.jar:20.164]
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3868) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6.call(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6.exec(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js) ~[?:?]
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.executeScriptImpl(RhinoScriptProcessor.java:589) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.execute(RhinoScriptProcessor.java:274) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.processor.ScriptServiceImpl.execute(ScriptServiceImpl.java:239) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.processor.ScriptServiceImpl.executeScript(ScriptServiceImpl.java:181) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryScriptProcessor.executeScript(RepositoryScriptProcessor.java:109) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.springframework.extensions.webscripts.AbstractWebScript.executeScript(AbstractWebScript.java:1376) ~[spring-webscripts-8.40.jar:8.40]
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:86) ~[spring-webscripts-8.40.jar:8.40]
+	... 43 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:244) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:263) ~[?:?]
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.readLine(MultiThreadedHttpConnectionManager.java:1413) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.alfresco.httpclient.RequestHeadersHttpClient.executeMethod(RequestHeadersHttpClient.java:90) ~[alfresco-core-20.164.jar:20.164]
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.alfresco.httpclient.RequestHeadersHttpClient.executeMethod(RequestHeadersHttpClient.java:75) ~[alfresco-core-20.164.jar:20.164]
+	at org.alfresco.repo.search.impl.solr.AbstractSolrQueryHTTPClient.postQuery(AbstractSolrQueryHTTPClient.java:100) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.search.impl.solr.SolrQueryHTTPClient.postSolrQuery(SolrQueryHTTPClient.java:1112) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.search.impl.solr.SolrQueryHTTPClient.executeQuery(SolrQueryHTTPClient.java:579) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.search.impl.solr.SolrQueryLanguage.executeQuery(SolrQueryLanguage.java:52) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.search.impl.solr.SolrSearchService.query(SolrSearchService.java:354) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.search.SearcherComponent.query(SearcherComponent.java:84) ~[alfresco-repository-20.164.jar:20.164]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.alfresco.repo.management.subsystems.SubsystemProxyFactory$1.invoke(SubsystemProxyFactory.java:79) ~[alfresco-repository-20.164.jar:20.164]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at jdk.proxy2.$Proxy45.query(Unknown Source) ~[?:?]
+	at org.alfresco.repo.search.impl.SearchServiceSubSystemDelegator.query(SearchServiceSubSystemDelegator.java:133) ~[alfresco-repository-20.164.jar:20.164]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.27.jar:5.3.27]
+	at net.sf.acegisecurity.intercept.method.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:80) ~[acegi-security-0.8.2_patched.jar:?]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.alfresco.repo.security.permissions.impl.ExceptionTranslatorMethodInterceptor.invoke(ExceptionTranslatorMethodInterceptor.java:53) ~[alfresco-repository-20.164.jar:20.164]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.alfresco.repo.audit.AuditMethodInterceptor.invoke(AuditMethodInterceptor.java:166) ~[alfresco-repository-20.164.jar:20.164]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at jdk.proxy2.$Proxy45.query(Unknown Source) ~[?:?]
+	at org.alfresco.repo.jscript.Search.queryResultMeta(Search.java:1016) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.jscript.Search.queryResultSet(Search.java:819) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.jscript.Search.query(Search.java:560) ~[alfresco-repository-20.164.jar:20.164]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:206) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:211) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:35) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6._c_getDoclist_20(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js:1127) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6.call(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js) ~[?:?]
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:66) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6._c_script_0(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js:1352) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6.call(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js) ~[?:?]
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:380) ~[rhino-1.7.14.jar:1.7.14]
+	at org.alfresco.repo.jscript.AlfrescoContextFactory.doTopCall(AlfrescoContextFactory.java:127) ~[alfresco-repository-20.164.jar:20.164]
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3868) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6.call(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_slingshot_documentlibrary_doclist_get_js_6.exec(classpath*:alfresco/templates/webscripts/org/alfresco/slingshot/documentlibrary/doclist.get.js) ~[?:?]
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.executeScriptImpl(RhinoScriptProcessor.java:589) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.execute(RhinoScriptProcessor.java:274) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.processor.ScriptServiceImpl.execute(ScriptServiceImpl.java:239) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.processor.ScriptServiceImpl.executeScript(ScriptServiceImpl.java:181) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryScriptProcessor.executeScript(RepositoryScriptProcessor.java:109) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.springframework.extensions.webscripts.AbstractWebScript.executeScript(AbstractWebScript.java:1376) ~[spring-webscripts-8.40.jar:8.40]
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:86) ~[spring-webscripts-8.40.jar:8.40]
+	... 43 more
+2023-07-10 14:36:42,002 ERROR [org.springframework.extensions.webscripts.AbstractRuntime] [http-nio-8080-exec-4] Exception from executeScript: 06100002 Wrapped Exception (with status template): 06100041 Failed to execute script 'classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js': 06100040 Failed to execute search: PATH:"/app:company_home//*" AND ASPECT:"{http://www.alfresco.org/model/content/1.0}taggable" -ASPECT:"{http://www.alfresco.org/model/content/1.0}workingcopy" AND ISNOTNULL:"{http://www.alfresco.org/model/content/1.0}taggable"
+org.springframework.extensions.webscripts.WebScriptException: 06100002 Wrapped Exception (with status template): 06100041 Failed to execute script 'classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js': 06100040 Failed to execute search: PATH:"/app:company_home//*" AND ASPECT:"{http://www.alfresco.org/model/content/1.0}taggable" -ASPECT:"{http://www.alfresco.org/model/content/1.0}workingcopy" AND ISNOTNULL:"{http://www.alfresco.org/model/content/1.0}taggable"
+	at org.springframework.extensions.webscripts.AbstractWebScript.createStatusException(AbstractWebScript.java:1139) ~[spring-webscripts-8.40.jar:8.40]
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:171) ~[spring-webscripts-8.40.jar:8.40]
+	at org.alfresco.repo.web.scripts.RepositoryContainer.lambda$transactionedExecute$2(RepositoryContainer.java:553) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.alfresco.repo.transaction.RetryingTransactionHelper.doInTransaction(RetryingTransactionHelper.java:452) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecute(RepositoryContainer.java:544) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecuteAs(RepositoryContainer.java:685) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecuteAs(RepositoryContainer.java:721) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryContainer.executeScriptInternal(RepositoryContainer.java:413) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryContainer.executeScript(RepositoryContainer.java:309) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.springframework.extensions.webscripts.AbstractRuntime.executeScript(AbstractRuntime.java:423) ~[spring-webscripts-8.40.jar:8.40]
+	at org.springframework.extensions.webscripts.AbstractRuntime.executeScript(AbstractRuntime.java:210) ~[spring-webscripts-8.40.jar:8.40]
+	at org.springframework.extensions.webscripts.servlet.WebScriptServlet.service(WebScriptServlet.java:131) ~[spring-webscripts-8.40.jar:8.40]
+	at org.alfresco.repo.web.scripts.AlfrescoWebScriptServlet.service(AlfrescoWebScriptServlet.java:43) ~[alfresco-remote-api-20.164.jar:20.164]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.75]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.75]
+	at org.springframework.extensions.webscripts.servlet.SecurityHeadersFilter.doFilter(SecurityHeadersFilter.java:177) ~[spring-webscripts-8.40.jar:8.40]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.75]
+	at org.alfresco.web.app.servlet.GlobalLocalizationFilter.doFilter(GlobalLocalizationFilter.java:68) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.75]
+	at org.alfresco.web.app.servlet.ClearSecurityContextFilter.doFilter(ClearSecurityContextFilter.java:53) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:9.0.75]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[catalina.jar:9.0.75]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-coyote.jar:9.0.75]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:9.0.75]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-coyote.jar:9.0.75]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-coyote.jar:9.0.75]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:9.0.75]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-util.jar:9.0.75]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:9.0.75]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-util.jar:9.0.75]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: org.alfresco.scripts.ScriptException: 06100041 Failed to execute script 'classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js': 06100040 Failed to execute search: PATH:"/app:company_home//*" AND ASPECT:"{http://www.alfresco.org/model/content/1.0}taggable" -ASPECT:"{http://www.alfresco.org/model/content/1.0}workingcopy" AND ISNOTNULL:"{http://www.alfresco.org/model/content/1.0}taggable"
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.execute(RhinoScriptProcessor.java:278) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.processor.ScriptServiceImpl.execute(ScriptServiceImpl.java:239) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.processor.ScriptServiceImpl.executeScript(ScriptServiceImpl.java:181) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryScriptProcessor.executeScript(RepositoryScriptProcessor.java:109) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.springframework.extensions.webscripts.AbstractWebScript.executeScript(AbstractWebScript.java:1376) ~[spring-webscripts-8.40.jar:8.40]
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:86) ~[spring-webscripts-8.40.jar:8.40]
+	... 43 more
+Caused by: org.alfresco.error.AlfrescoRuntimeException: 06100040 Failed to execute search: PATH:"/app:company_home//*" AND ASPECT:"{http://www.alfresco.org/model/content/1.0}taggable" -ASPECT:"{http://www.alfresco.org/model/content/1.0}workingcopy" AND ISNOTNULL:"{http://www.alfresco.org/model/content/1.0}taggable"
+	at org.alfresco.repo.jscript.Search.queryResultMeta(Search.java:1127) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.jscript.Search.queryResultSet(Search.java:819) ~[alfresco-repository-20.164.jar:20.164]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:206) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:211) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:35) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7._c_tagQuery_1(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js:69) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7.call(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js) ~[?:?]
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:66) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7._c_script_0(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js:173) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7.call(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js) ~[?:?]
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:380) ~[rhino-1.7.14.jar:1.7.14]
+	at org.alfresco.repo.jscript.AlfrescoContextFactory.doTopCall(AlfrescoContextFactory.java:127) ~[alfresco-repository-20.164.jar:20.164]
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3868) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7.call(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7.exec(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js) ~[?:?]
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.executeScriptImpl(RhinoScriptProcessor.java:589) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.execute(RhinoScriptProcessor.java:274) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.processor.ScriptServiceImpl.execute(ScriptServiceImpl.java:239) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.processor.ScriptServiceImpl.executeScript(ScriptServiceImpl.java:181) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryScriptProcessor.executeScript(RepositoryScriptProcessor.java:109) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.springframework.extensions.webscripts.AbstractWebScript.executeScript(AbstractWebScript.java:1376) ~[spring-webscripts-8.40.jar:8.40]
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:86) ~[spring-webscripts-8.40.jar:8.40]
+	... 43 more
+Caused by: org.alfresco.repo.search.QueryParserException: 06100039 
+	at org.alfresco.repo.search.impl.solr.SolrQueryHTTPClient.executeQuery(SolrQueryHTTPClient.java:594) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.search.impl.solr.SolrQueryLanguage.executeQuery(SolrQueryLanguage.java:52) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.search.impl.solr.SolrSearchService.query(SolrSearchService.java:354) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.search.SearcherComponent.query(SearcherComponent.java:84) ~[alfresco-repository-20.164.jar:20.164]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.alfresco.repo.management.subsystems.SubsystemProxyFactory$1.invoke(SubsystemProxyFactory.java:79) ~[alfresco-repository-20.164.jar:20.164]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at jdk.proxy2.$Proxy45.query(Unknown Source) ~[?:?]
+	at org.alfresco.repo.search.impl.SearchServiceSubSystemDelegator.query(SearchServiceSubSystemDelegator.java:133) ~[alfresco-repository-20.164.jar:20.164]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.27.jar:5.3.27]
+	at net.sf.acegisecurity.intercept.method.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:80) ~[acegi-security-0.8.2_patched.jar:?]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.alfresco.repo.security.permissions.impl.ExceptionTranslatorMethodInterceptor.invoke(ExceptionTranslatorMethodInterceptor.java:53) ~[alfresco-repository-20.164.jar:20.164]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.alfresco.repo.audit.AuditMethodInterceptor.invoke(AuditMethodInterceptor.java:166) ~[alfresco-repository-20.164.jar:20.164]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at jdk.proxy2.$Proxy45.query(Unknown Source) ~[?:?]
+	at org.alfresco.repo.jscript.Search.queryResultMeta(Search.java:1016) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.jscript.Search.queryResultSet(Search.java:819) ~[alfresco-repository-20.164.jar:20.164]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:206) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:211) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:35) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7._c_tagQuery_1(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js:69) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7.call(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js) ~[?:?]
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:66) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7._c_script_0(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js:173) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7.call(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js) ~[?:?]
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:380) ~[rhino-1.7.14.jar:1.7.14]
+	at org.alfresco.repo.jscript.AlfrescoContextFactory.doTopCall(AlfrescoContextFactory.java:127) ~[alfresco-repository-20.164.jar:20.164]
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3868) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7.call(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7.exec(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js) ~[?:?]
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.executeScriptImpl(RhinoScriptProcessor.java:589) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.execute(RhinoScriptProcessor.java:274) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.processor.ScriptServiceImpl.execute(ScriptServiceImpl.java:239) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.processor.ScriptServiceImpl.executeScript(ScriptServiceImpl.java:181) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryScriptProcessor.executeScript(RepositoryScriptProcessor.java:109) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.springframework.extensions.webscripts.AbstractWebScript.executeScript(AbstractWebScript.java:1376) ~[spring-webscripts-8.40.jar:8.40]
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:86) ~[spring-webscripts-8.40.jar:8.40]
+	... 43 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:244) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:263) ~[?:?]
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.readLine(MultiThreadedHttpConnectionManager.java:1413) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.alfresco.httpclient.RequestHeadersHttpClient.executeMethod(RequestHeadersHttpClient.java:90) ~[alfresco-core-20.164.jar:20.164]
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323) ~[commons-httpclient-3.1-HTTPCLIENT-1265.jar:?]
+	at org.alfresco.httpclient.RequestHeadersHttpClient.executeMethod(RequestHeadersHttpClient.java:75) ~[alfresco-core-20.164.jar:20.164]
+	at org.alfresco.repo.search.impl.solr.AbstractSolrQueryHTTPClient.postQuery(AbstractSolrQueryHTTPClient.java:100) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.search.impl.solr.SolrQueryHTTPClient.postSolrQuery(SolrQueryHTTPClient.java:1112) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.search.impl.solr.SolrQueryHTTPClient.executeQuery(SolrQueryHTTPClient.java:579) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.search.impl.solr.SolrQueryLanguage.executeQuery(SolrQueryLanguage.java:52) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.search.impl.solr.SolrSearchService.query(SolrSearchService.java:354) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.search.SearcherComponent.query(SearcherComponent.java:84) ~[alfresco-repository-20.164.jar:20.164]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.alfresco.repo.management.subsystems.SubsystemProxyFactory$1.invoke(SubsystemProxyFactory.java:79) ~[alfresco-repository-20.164.jar:20.164]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at jdk.proxy2.$Proxy45.query(Unknown Source) ~[?:?]
+	at org.alfresco.repo.search.impl.SearchServiceSubSystemDelegator.query(SearchServiceSubSystemDelegator.java:133) ~[alfresco-repository-20.164.jar:20.164]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.27.jar:5.3.27]
+	at net.sf.acegisecurity.intercept.method.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:80) ~[acegi-security-0.8.2_patched.jar:?]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.alfresco.repo.security.permissions.impl.ExceptionTranslatorMethodInterceptor.invoke(ExceptionTranslatorMethodInterceptor.java:53) ~[alfresco-repository-20.164.jar:20.164]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.alfresco.repo.audit.AuditMethodInterceptor.invoke(AuditMethodInterceptor.java:166) ~[alfresco-repository-20.164.jar:20.164]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at jdk.proxy2.$Proxy45.query(Unknown Source) ~[?:?]
+	at org.alfresco.repo.jscript.Search.queryResultMeta(Search.java:1016) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.jscript.Search.queryResultSet(Search.java:819) ~[alfresco-repository-20.164.jar:20.164]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:206) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:211) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:35) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7._c_tagQuery_1(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js:69) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7.call(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js) ~[?:?]
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:66) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7._c_script_0(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js:173) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7.call(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js) ~[?:?]
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:380) ~[rhino-1.7.14.jar:1.7.14]
+	at org.alfresco.repo.jscript.AlfrescoContextFactory.doTopCall(AlfrescoContextFactory.java:127) ~[alfresco-repository-20.164.jar:20.164]
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3868) ~[rhino-1.7.14.jar:1.7.14]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7.call(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js) ~[?:?]
+	at org.mozilla.javascript.gen.classpath__alfresco_templates_webscripts_org_alfresco_collaboration_tagQuery_get_js_7.exec(classpath*:alfresco/templates/webscripts/org/alfresco/collaboration/tagQuery.get.js) ~[?:?]
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.executeScriptImpl(RhinoScriptProcessor.java:589) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.jscript.RhinoScriptProcessor.execute(RhinoScriptProcessor.java:274) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.processor.ScriptServiceImpl.execute(ScriptServiceImpl.java:239) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.processor.ScriptServiceImpl.executeScript(ScriptServiceImpl.java:181) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.web.scripts.RepositoryScriptProcessor.executeScript(RepositoryScriptProcessor.java:109) ~[alfresco-remote-api-20.164.jar:20.164]
+	at org.springframework.extensions.webscripts.AbstractWebScript.executeScript(AbstractWebScript.java:1376) ~[spring-webscripts-8.40.jar:8.40]
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:86) ~[spring-webscripts-8.40.jar:8.40]
+	... 43 more
+2023-07-10 14:38:30,999 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [http-nio-8080-exec-1] Local transforms (transformers: 47 transforms: 4136 t-engines: 1 files: 1) are enabled
+2023-07-10 14:38:31,005 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [http-nio-8080-exec-1] Starting 'Transformers' subsystem, ID: [Transformers, default]
+2023-07-10 14:38:31,435 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [http-nio-8080-exec-1] Startup of 'Transformers' subsystem, ID: [Transformers, default] complete
+2023-07-10 14:38:32,441 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [pool-2-thread-1] 1               pdf  png  5267-Loan Application File-010798001.pdf 9 MB -- doclib -- Local:pdfToImageViaPng
+2023-07-10 14:38:32,443 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [pool-2-thread-1] 1                 thumbnail="true"
+2023-07-10 14:38:32,444 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [pool-2-thread-1] 1                 startPage="0"
+2023-07-10 14:38:32,447 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [pool-2-thread-1] 1                 resizeWidth="100"
+2023-07-10 14:38:32,448 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [pool-2-thread-1] 1                 autoOrient="true"
+2023-07-10 14:38:32,450 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [pool-2-thread-1] 1                 endPage="0"
+2023-07-10 14:38:32,450 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [pool-2-thread-1] 1                 resizeHeight="100"
+2023-07-10 14:38:32,451 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [pool-2-thread-1] 1                 allowEnlargement="false"
+2023-07-10 14:38:32,452 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [pool-2-thread-1] 1                 maintainAspectRatio="true"
+2023-07-10 14:38:32,455 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [pool-2-thread-1] 1               workspace://SpacesStore/32aa537a-1d34-4a80-92ea-237c75bd01dd
+2023-07-10 14:38:33,395 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [pool-2-thread-1] 1.1             pdf  png  5267-Loan Application File-010798001.pdf 9 MB Local:pdfrenderer
+2023-07-10 14:38:37,481 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [pool-2-thread-1] 1.1                       Failed 06100042 pdfrenderer returned a 400 status Transformer exit code was not 0: \nCannot run program \"C:\\alfresco-community72\\alfresco-pdf-renderer\\alfresco-pdf-renderer.exe\": CreateProcess error=2, The system cannot find the file specified http://localhost:8090/transform targetExtension=png sourceEncoding=UTF-8 sourceMimetype=application/pdf sourceExtension=pdf targetMimetype=image/png
+2023-07-10 14:38:37,518 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [pool-2-thread-1] 1                         Failed 06100043 Content conversion failed
+2023-07-10 14:38:37,522 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [pool-2-thread-1] 1               Finished in 5,085 ms
+2023-07-10 14:39:00,868 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [http-nio-8080-exec-4] 2               pdf  txt  5267-Loan Application File-010798001.pdf 9 MB -- transform:SolrIndexer -- Local:PdfBox
+2023-07-10 14:39:00,872 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [http-nio-8080-exec-4] 2               workspace://SpacesStore/32aa537a-1d34-4a80-92ea-237c75bd01dd
+2023-07-10 14:39:02,888 DEBUG [org.alfresco.repo.content.transform.TransformerDebug] [http-nio-8080-exec-4] 2               Finished in 2,015 ms
+2023-07-10 15:29:30,152 ERROR [org.quartz.core.JobRunShell] [DefaultScheduler_Worker-8] Job DEFAULT.feedGeneratorJobDetail threw an unhandled Exception: 
+org.alfresco.repo.security.permissions.AccessDeniedException: 06100045 Access Denied.  The system is currently in read-only mode.
+	at org.alfresco.repo.transaction.RetryingTransactionHelper.doInTransaction(RetryingTransactionHelper.java:392) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.activities.feed.AbstractFeedGenerator.execute(AbstractFeedGenerator.java:183) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.activities.feed.FeedGeneratorJob.execute(FeedGeneratorJob.java:57) ~[alfresco-repository-20.164.jar:20.164]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) ~[quartz-2.3.2.jar:?]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) ~[quartz-2.3.2.jar:?]
+2023-07-10 15:29:30,970 ERROR [org.quartz.core.ErrorLogger] [DefaultScheduler_Worker-8] Job (DEFAULT.feedGeneratorJobDetail threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213) ~[quartz-2.3.2.jar:?]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) ~[quartz-2.3.2.jar:?]
+Caused by: org.alfresco.repo.security.permissions.AccessDeniedException: 06100045 Access Denied.  The system is currently in read-only mode.
+	at org.alfresco.repo.transaction.RetryingTransactionHelper.doInTransaction(RetryingTransactionHelper.java:392) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.activities.feed.AbstractFeedGenerator.execute(AbstractFeedGenerator.java:183) ~[alfresco-repository-20.164.jar:20.164]
+	at org.alfresco.repo.activities.feed.FeedGeneratorJob.execute(FeedGeneratorJob.java:57) ~[alfresco-repository-20.164.jar:20.164]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) ~[quartz-2.3.2.jar:?]
+	... 1 more
+2023-07-10 15:29:34,871 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'Replication' subsystem, ID: [Replication, default]
+2023-07-10 15:29:34,903 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'Replication' subsystem, ID: [Replication, default]
+2023-07-10 15:29:35,005 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'Subscriptions' subsystem, ID: [Subscriptions, default]
+2023-07-10 15:29:35,007 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'Subscriptions' subsystem, ID: [Subscriptions, default]
+2023-07-10 15:29:35,009 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'email' subsystem, ID: [email, inbound]
+2023-07-10 15:29:35,018 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'email' subsystem, ID: [email, inbound]
+2023-07-10 15:29:35,018 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'fileServers' subsystem, ID: [fileServers, default]
+2023-07-10 15:29:35,070 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'fileServers' subsystem, ID: [fileServers, default]
+2023-07-10 15:29:35,113 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'ActivitiesFeed' subsystem, ID: [ActivitiesFeed, default]
+2023-07-10 15:29:35,129 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'ActivitiesFeed' subsystem, ID: [ActivitiesFeed, default]
+2023-07-10 15:29:35,130 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+2023-07-10 15:29:35,134 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+2023-07-10 15:29:35,144 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'Synchronization' subsystem, ID: [Synchronization, default]
+2023-07-10 15:29:35,149 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'Synchronization' subsystem, ID: [Synchronization, default]
+2023-07-10 15:29:35,150 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'email' subsystem, ID: [email, outbound]
+2023-07-10 15:29:35,161 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'email' subsystem, ID: [email, outbound]
+2023-07-10 15:29:35,164 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'imap' subsystem, ID: [imap, default]
+2023-07-10 15:29:35,192 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'imap' subsystem, ID: [imap, default]
+2023-07-10 15:29:35,715 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'Search' subsystem, ID: [Search, managed, solr6]
+2023-07-10 15:29:35,980 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'Search' subsystem, ID: [Search, managed, solr6]
+2023-07-10 15:29:36,236 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'Messaging' subsystem, ID: [Messaging, default]
+2023-07-10 15:29:38,051 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'Messaging' subsystem, ID: [Messaging, default]
+2023-07-10 15:29:38,066 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'Transformers' subsystem, ID: [Transformers, default]
+2023-07-10 15:29:38,086 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'Transformers' subsystem, ID: [Transformers, default]
+2023-07-10 15:29:38,123 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+2023-07-10 15:29:38,183 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+2023-07-10 15:29:38,207 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'sysAdmin' subsystem, ID: [sysAdmin, default]
+2023-07-10 15:29:38,221 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'sysAdmin' subsystem, ID: [sysAdmin, default]
+2023-07-10 15:31:33,724 WARN  [org.alfresco.heartbeat.datasender.HBDataSenderServiceBuilder] [main] Setting the Heartbeat sender cron with property 'heartbeat.sender.cronExpression' is no longer supported.
+2023-07-10 15:31:35,592 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Ignoring script patch (post-Hibernate): patch.db-V4.2-metadata-query-indexes
+2023-07-10 15:31:35,592 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Ignoring script patch (post-Hibernate): patch.db-V5.1-metadata-query-indexes
+2023-07-10 15:31:35,593 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Ignoring script patch (post-Hibernate): patch.db-V5.2-remove-jbpm-tables-from-db
+2023-07-10 15:31:35,594 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Ignoring script patch (post-Hibernate): patch.db-V6.3-add-indexes-node-transaction
+2023-07-10 15:31:35,595 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Ignoring script patch (post-Hibernate): patch.db-V7.1.0-remove-alf_server-table
+2023-07-10 15:31:36,580 INFO  [org.alfresco.repo.admin] [main] Using database URL 'jdbc:postgresql://localhost:5432/alfresco' with user 'alfresco'.
+2023-07-10 15:31:36,586 INFO  [org.alfresco.repo.admin] [main] Connected to database PostgreSQL version 14.8
+2023-07-10 15:31:50,861 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+2023-07-10 15:31:51,080 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1] complete
+2023-07-10 15:31:58,434 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [main] Registered template processor Repository Template Processor for extension ftl
+2023-07-10 15:31:58,442 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [main] Registered script processor Repository Script Processor for extension js
+2023-07-10 15:32:06,419 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+2023-07-10 15:32:06,509 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted] complete
+2023-07-10 15:32:06,778 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Connecting to database: 1976086895, URL=jdbc:postgresql://localhost:5432/alfresco, PostgreSQL JDBC Driver
+2023-07-10 15:32:06,779 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Schema managed by database dialect org.alfresco.repo.domain.dialect.PostgreSQLDialect.
+2023-07-10 15:32:06,871 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Applied patches detected: 224
+2023-07-10 15:32:06,966 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Checking and patching Alfresco tables took 94 ms
+2023-07-10 15:32:06,983 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Activiti tables need to be checked for patches
+2023-07-10 15:32:07,055 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Checking and patching Activiti tables took 71 ms
+2023-07-10 15:32:07,133 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Checking that all patches have been applied took 78 ms
+2023-07-10 15:32:07,133 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Updating the DB schema took 346 ms
+2023-07-10 15:32:07,154 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] No changes were made to the schema.
+2023-07-10 15:32:08,973 INFO  [org.alfresco.repo.admin.ConfigurationChecker] [main] The root data directory ('dir.root') is: C:\alfresco-community74\alf_data
+2023-07-10 15:32:09,026 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] [main] Checking for patches to apply ...
+2023-07-10 15:32:09,642 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] [main] No patches were required.
+2023-07-10 15:32:09,672 INFO  [org.alfresco.repo.module.ModuleServiceImpl] [main] Found 2 module package(s).
+2023-07-10 15:32:09,828 INFO  [org.alfresco.repo.module.ModuleServiceImpl] [main] Starting module 'alfresco-share-services' version 20.164.
+2023-07-10 15:32:09,868 INFO  [org.alfresco.repo.module.ModuleServiceImpl] [main] Starting module 'alfresco-trashcan-cleaner' version 2.4.1.
+2023-07-10 15:32:09,881 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'fileServers' subsystem, ID: [fileServers, default]
+2023-07-10 15:32:10,595 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'fileServers' subsystem, ID: [fileServers, default] complete
+2023-07-10 15:32:10,595 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'imap' subsystem, ID: [imap, default]
+2023-07-10 15:32:11,264 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'imap' subsystem, ID: [imap, default] complete
+2023-07-10 15:32:11,265 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'email' subsystem, ID: [email, outbound]
+2023-07-10 15:32:12,414 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'email' subsystem, ID: [email, outbound] complete
+2023-07-10 15:32:12,415 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'email' subsystem, ID: [email, inbound]
+2023-07-10 15:32:12,555 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'email' subsystem, ID: [email, inbound] complete
+2023-07-10 15:32:12,555 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'Subscriptions' subsystem, ID: [Subscriptions, default]
+2023-07-10 15:32:12,608 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'Subscriptions' subsystem, ID: [Subscriptions, default] complete
+2023-07-10 15:32:12,668 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'Synchronization' subsystem, ID: [Synchronization, default]
+2023-07-10 15:32:12,769 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'sysAdmin' subsystem, ID: [sysAdmin, default]
+2023-07-10 15:32:12,806 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'sysAdmin' subsystem, ID: [sysAdmin, default] complete
+2023-07-10 15:32:12,937 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'Synchronization' subsystem, ID: [Synchronization, default] complete
+2023-07-10 15:32:12,991 INFO  [org.alfresco.service.descriptor.DescriptorService] [main] Alfresco JVM - v17.0.4+11-LTS-179; maximum heap size 1004.000MB
+2023-07-10 15:32:12,993 INFO  [org.alfresco.service.descriptor.DescriptorService] [main] Server Mode :UNKNOWN
+2023-07-10 15:32:13,004 INFO  [org.alfresco.service.descriptor.DescriptorService] [main] Alfresco Content Services started (Community). Current version: 7.4.0 (rdc73418c-b165) schema 18,000. Originally installed version: 7.4.0 (rdc73418c-b165) schema 18,000.
+2023-07-10 15:32:13,020 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'ActivitiesFeed' subsystem, ID: [ActivitiesFeed, default]
+2023-07-10 15:32:13,611 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'ActivitiesFeed' subsystem, ID: [ActivitiesFeed, default] complete
+2023-07-10 15:32:13,613 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'Replication' subsystem, ID: [Replication, default]
+2023-07-10 15:32:13,647 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'Replication' subsystem, ID: [Replication, default] complete
+2023-07-10 15:32:15,575 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'Messaging' subsystem, ID: [Messaging, default]
+2023-07-10 15:32:20,373 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'Messaging' subsystem, ID: [Messaging, default] complete
+2023-07-10 15:32:28,438 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 376 Web Scripts (+0 failed), 520 URLs
+2023-07-10 15:32:28,440 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 1 Package Description Documents (+0 failed) 
+2023-07-10 15:32:28,442 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 0 Schema Description Documents (+0 failed) 
+2023-07-10 15:32:30,664 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 376 Web Scripts (+0 failed), 520 URLs
+2023-07-10 15:32:30,664 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 1 Package Description Documents (+0 failed) 
+2023-07-10 15:32:30,665 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 0 Schema Description Documents (+0 failed) 
+2023-07-10 15:32:30,675 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [main] Initialised Repository Web Script Container (in 9530.786ms)
+2023-07-10 15:32:30,745 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [main] Registered template processor freemarker for extension ftl
+2023-07-10 15:32:30,780 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [main] Registered script processor javascript for extension js
+2023-07-10 15:32:33,467 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 376 Web Scripts (+0 failed), 520 URLs
+2023-07-10 15:32:33,467 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 1 Package Description Documents (+0 failed) 
+2023-07-10 15:32:33,468 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 0 Schema Description Documents (+0 failed) 
+2023-07-10 15:32:33,677 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 14 Web Scripts (+0 failed), 103 URLs
+2023-07-10 15:32:33,677 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 0 Package Description Documents (+0 failed) 
+2023-07-10 15:32:33,678 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 0 Schema Description Documents (+0 failed) 
+2023-07-10 15:32:33,866 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 14 Web Scripts (+0 failed), 103 URLs
+2023-07-10 15:32:33,867 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 0 Package Description Documents (+0 failed) 
+2023-07-10 15:32:33,867 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 0 Schema Description Documents (+0 failed) 
+2023-07-10 15:32:33,880 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [main] Initialised Public Api Web Script Container (in 3034.14ms)
+2023-07-10 15:32:33,934 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 14 Web Scripts (+0 failed), 103 URLs
+2023-07-10 15:32:33,938 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 0 Package Description Documents (+0 failed) 
+2023-07-10 15:32:33,939 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 0 Schema Description Documents (+0 failed) 
+2023-07-10 15:32:34,240 WARN  [org.alfresco.web.scripts.servlet.X509ServletFilterBase] [main] clientAuth does not appear to be set for Tomcat. clientAuth must be set to 'want' for X509 Authentication
+2023-07-10 15:32:34,240 WARN  [org.alfresco.web.scripts.servlet.X509ServletFilterBase] [main] Attempting to set clientAuth=want through JMX...
+2023-07-10 15:32:34,249 WARN  [org.alfresco.web.scripts.servlet.X509ServletFilterBase] [main] Unable to set clientAuth=want through JMX.
+2023-07-10 15:33:45,429 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [http-nio-8080-exec-1] Starting 'Search' subsystem, ID: [Search, managed, solr6]
+2023-07-10 15:33:46,115 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [http-nio-8080-exec-1] Startup of 'Search' subsystem, ID: [Search, managed, solr6] complete
+2023-07-10 16:07:06,661 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'Replication' subsystem, ID: [Replication, default]
+2023-07-10 16:07:06,709 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'Replication' subsystem, ID: [Replication, default]
+2023-07-10 16:07:06,774 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'Subscriptions' subsystem, ID: [Subscriptions, default]
+2023-07-10 16:07:06,778 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'Subscriptions' subsystem, ID: [Subscriptions, default]
+2023-07-10 16:07:06,780 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'email' subsystem, ID: [email, inbound]
+2023-07-10 16:07:06,790 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'email' subsystem, ID: [email, inbound]
+2023-07-10 16:07:06,797 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'fileServers' subsystem, ID: [fileServers, default]
+2023-07-10 16:07:06,842 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'fileServers' subsystem, ID: [fileServers, default]
+2023-07-10 16:07:06,863 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'ActivitiesFeed' subsystem, ID: [ActivitiesFeed, default]
+2023-07-10 16:07:06,874 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'ActivitiesFeed' subsystem, ID: [ActivitiesFeed, default]
+2023-07-10 16:07:06,876 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+2023-07-10 16:07:06,879 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+2023-07-10 16:07:06,882 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'Synchronization' subsystem, ID: [Synchronization, default]
+2023-07-10 16:07:06,888 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'Synchronization' subsystem, ID: [Synchronization, default]
+2023-07-10 16:07:06,891 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'email' subsystem, ID: [email, outbound]
+2023-07-10 16:07:06,898 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'email' subsystem, ID: [email, outbound]
+2023-07-10 16:07:06,902 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'imap' subsystem, ID: [imap, default]
+2023-07-10 16:07:06,936 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'imap' subsystem, ID: [imap, default]
+2023-07-10 16:07:07,796 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'Search' subsystem, ID: [Search, managed, solr6]
+2023-07-10 16:07:08,241 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'Search' subsystem, ID: [Search, managed, solr6]
+2023-07-10 16:07:08,395 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'Messaging' subsystem, ID: [Messaging, default]
+2023-07-10 16:07:09,026 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'Messaging' subsystem, ID: [Messaging, default]
+2023-07-10 16:07:09,035 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+2023-07-10 16:07:09,040 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+2023-07-10 16:07:09,043 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopping 'sysAdmin' subsystem, ID: [sysAdmin, default]
+2023-07-10 16:07:09,045 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [Thread-52] Stopped 'sysAdmin' subsystem, ID: [sysAdmin, default]

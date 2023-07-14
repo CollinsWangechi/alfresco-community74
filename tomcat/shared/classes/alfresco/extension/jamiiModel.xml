@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Definition of new Model -->
+
+<!-- The important part here is the name - Note: the use of the skyplus: namespace
+     which is defined further on in the document -->
+<model name="skyplus:docmodel" xmlns="http://www.alfresco.org/model/dictionary/1.0">
+
+   <!-- Optional meta-data about the model -->
+   <description>Skyplus custom Model</description>
+   <author>Skyplus Development Labs</author>
+   <version>1.0</version>
+
+   <!-- Imports are required to allow references to definitions in other models -->
+   <imports>
+      <!-- Import Alfresco Dictionary Definitions -->
+      <import uri="http://www.alfresco.org/model/dictionary/1.0" prefix="d"/>
+      <!-- Import Alfresco Content Domain Model Definitions -->
+      <import uri="http://www.alfresco.org/model/content/1.0" prefix="cm"/>
+   </imports>
+	<namespaces>
+		<namespace uri="http://www.skyplus.co.ke/model/content/1.0" prefix="skyplus"/>
+	</namespaces>
+		<constraints>
+			
+		</constraints>	
+   
+	<types>
+
+		
+	
+		
+				<!-- Finance Purchase  Document Types -->
+		<type name="skyplus:finpurchDocType">
+			<title>Finance Purchase File Documents</title>  
+			<parent>cm:content</parent>
+			<mandatory-aspects>
+				<aspect>skyplus:finpurchDocAspects</aspect>
+			</mandatory-aspects>
+		</type>	
+
+		<!-- Finance Payment  Document Types -->
+		<type name="skyplus:finpaymentDocType">
+			<title>Finance Payment File Documents</title>  
+			<parent>cm:content</parent>
+			<mandatory-aspects>
+				<aspect>skyplus:finpaymentDocAspects</aspect>
+			</mandatory-aspects>
+		</type>	
+
+
+			<!-- ICT Request  Document Types -->
+		<type name="skyplus:ictstaffDocType">
+			<title>ICT Request File Documents</title>  
+			<parent>cm:content</parent>
+			<mandatory-aspects>
+				<aspect>skyplus:ictstaffDocAspects</aspect>
+			</mandatory-aspects>
+		</type>	
+
+			<!-- Customer Service  Document Types -->
+		<type name="skyplus:memberDocType">
+			<title>Customer Service File Documents</title>  
+			<parent>cm:content</parent>
+			<mandatory-aspects>
+				<aspect>skyplus:memberDocAspects</aspect>
+			</mandatory-aspects>
+		</type>	
+
+		<!-- HR Personal File Document Types -->
+		<type name="skyplus:staffDocType">
+			<title>HR Personal File Documents</title>  
+			<parent>cm:content</parent>
+			<mandatory-aspects>
+				<aspect>skyplus:staffDocAspects</aspect>
+			</mandatory-aspects>
+		</type>	
+
+		<!-- HR Loan Application File Document Types -->
+		<type name="skyplus:staffLoanDocType">
+			<title>HR Loan File Documents</title>  
+			<parent>cm:content</parent>
+			<mandatory-aspects>
+				<aspect>skyplus:staffLoanDocAspects</aspect>
+			</mandatory-aspects>
+		</type>	
+
+
+		<!-- HR Statutory File Document Types -->
+		<type name="skyplus:statDocType">
+			<title>HR Statutory File Documents</title>  
+			<parent>cm:content</parent>
+			<mandatory-aspects>
+				<aspect>skyplus:statDocAspects</aspect>
+			</mandatory-aspects>
+		</type>	
+
+
+		<!-- HR Commission Payment File Document Types -->
+		<type name="skyplus:commpayDocType">
+			<title>HR Commission File Documents</title>  
+			<parent>cm:content</parent>
+			<mandatory-aspects>
+				<aspect>skyplus:commpayDocAspects</aspect>
+			</mandatory-aspects>
+		</type>	
+
+		<!-- HR Casual Payment File Document Types -->
+		<type name="skyplus:caspayDocType">
+			<title>HR Casual File Documents</title>  
+			<parent>cm:content</parent>
+			<mandatory-aspects>
+				<aspect>skyplus:caspayDocAspects</aspect>
+			</mandatory-aspects>
+		</type>	
+
+		<!-- Admin File Document Types -->
+		<type name="skyplus:adminDocType">
+			<title>Admin File Documents</title>  
+			<parent>cm:content</parent>
+			<mandatory-aspects>
+				<aspect>skyplus:adminDocAspects</aspect>
+			</mandatory-aspects>
+		</type>	
+
+		<!-- Admin Minutes Document Types -->
+		<type name="skyplus:minDocType">
+			<title>Minutes File Documents</title>  
+			<parent>cm:content</parent>
+			<mandatory-aspects>
+				<aspect>skyplus:minDocAspects</aspect>
+			</mandatory-aspects>
+		</type>	
+		
+		<!-- Nominee Document Types -->
+		<type name="skyplus:nomineeNemberDocType">
+			<title>Nominee File Documents</title>  
+			<parent>cm:content</parent>
+			<mandatory-aspects>
+				<aspect>skyplus:nomineeMemberDocAspects</aspect>
+			</mandatory-aspects>
+		</type>
+		
+
+			<!-- Admin Tender Document Types -->
+		<type name="skyplus:tenderDocType">
+			<title>Tender File Documents</title>  
+			<parent>cm:content</parent>
+			<mandatory-aspects>
+				<aspect>skyplus:tenderDocAspects</aspect>
+			</mandatory-aspects>
+		</type>	
+
+			<!-- Admin Contract Document Types -->
+		<type name="skyplus:contractDocType">
+			<title>Contract File Documents</title>  
+			<parent>cm:content</parent>
+			<mandatory-aspects>
+				<aspect>skyplus:contractDocAspects</aspect>
+			</mandatory-aspects>
+		</type>	
+
+		<!-- Admin Board Members Document Types -->
+		<type name="skyplus:boardmemberDocType">
+			<title>Contract File Documents</title>  
+			<parent>cm:content</parent>
+			<mandatory-aspects>
+				<aspect>skyplus:boardmemberDocAspects</aspect>
+			</mandatory-aspects>
+		</type>	
+
+   </types>
+   
+  
+   
+  
+   <!-- 	Defining common Aspects    -->
+   
+   
+   
+   <aspects>			
+       
+	   <!-- 	Customer Service  ASPECTS -->
+
+	   <aspect name="skyplus:memberDocAspects">
+            <title>Personal File Aspect </title>
+            <properties>
+				<property name="skyplus:applicationNo">
+					<title>Application No</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>
+				<property name="skyplus:memberNo">
+					<title>Member No</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>
+				<property name="skyplus:memberIdNo">
+					<title>Id No</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>
+				<property name="skyplus:loanNo">
+					<title>Loan No</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+					<property name="skyplus:memberName">
+					<title>Member Name</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:memberDocCategory">
+					<title>Document Category</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:memberDocBranch">
+					<title>Branch</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:memberDocType">
+					<title>Document Type</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:memberuserName">
+					<title>Username</title>
+					<type>d:text</type>					
+				</property>		
+			</properties>
+    </aspect>
+
+	<!--Nominee File-->
+	<aspect name="skyplus:nomineeMemberDocAspects">
+            <title>Nominee File Aspect </title>
+            <properties>
+				<property name="skyplus:nomineeMemberTempId">
+					<title>Temp Cust No</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:nomineeMemberNo">
+					<title>Member No</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:nomineememberName">
+					<title>Member Name</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:nomineememberId">
+					<title>Member Id No</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:nomineememberSerial">
+					<title>Serial No</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:nomineememberDocType">
+					<title>Document Type</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:nomineememberuserName">
+					<title>Username</title>
+					<type>d:text</type>					
+				</property>		
+			</properties>
+    </aspect>
+     	
+		 <!-- 	HR  ASPECTS -->
+	<!-- Personal File  aspects -->
+	<aspect name="skyplus:staffDocAspects">
+            <title>Personal File Aspect </title>
+            <properties>
+				<property name="skyplus:staffNo">
+					<title>Staff No</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>
+				<property name="skyplus:staffName">
+					<title>Staff Name</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>		
+				<property name="skyplus:staffDocType">
+					<title>Document Type</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:staffuserName">
+					<title>Username</title>
+					<type>d:text</type>					
+				</property>		
+			</properties>
+    </aspect>
+
+	<!-- Loan Application File  aspects -->
+	<aspect name="skyplus:staffLoanDocAspects">
+            <title>Loan Application File Aspect </title>
+            <properties>
+				<property name="skyplus:staffLoanCustomerNo">
+					<title>Customer ID</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>
+				<property name="skyplus:staffLoanNo">
+					<title>Staff No</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:staffLoanName">
+					<title>Staff Name</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>		
+				<property name="skyplus:staffLoanDocType">
+					<title>Document Type</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:staffLoanuserName">
+					<title>Username</title>
+					<type>d:text</type>					
+				</property>		
+			</properties>
+    </aspect>
+
+	<!-- Statutory File  aspects -->
+	<aspect name="skyplus:statDocAspects">
+            <title>Statutory File Aspect </title>
+            <properties>
+				<property name="skyplus:statYear">
+					<title>Year</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>
+				<property name="skyplus:statMonth">
+					<title>Month</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:statDate">
+					<title>Date</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>		
+				<property name="skyplus:statDocType">
+					<title>Document Type</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:statuserName">
+					<title>Username</title>
+					<type>d:text</type>					
+				</property>		
+			</properties>
+    </aspect>
+
+	<!-- Commission Payment File  aspects -->
+	<aspect name="skyplus:commpayDocAspects">
+            <title>Commission Payment File Aspect </title>
+            <properties>
+				<property name="skyplus:commpayYear">
+					<title>Year</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>
+				<property name="skyplus:commpayMonth">
+					<title>Month</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:commpayRemarks">
+					<title>Remarks</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>		
+				<property name="skyplus:commpayDocType">
+					<title>Document Type</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:commpayuserName">
+					<title>Username</title>
+					<type>d:text</type>					
+				</property>		
+			</properties>
+    </aspect>
+
+		<!-- Casual Payment File  aspects -->
+	<aspect name="skyplus:caspayDocAspects">
+            <title>Casual Payment File Aspect </title>
+            <properties>
+				<property name="skyplus:caspayYear">
+					<title>Year</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>
+				<property name="skyplus:caspayMonth">
+					<title>Month</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:caspayRemarks">
+					<title>Remarks</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>		
+				<property name="skyplus:caspayDocType">
+					<title>Document Type</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:caspayuserName">
+					<title>Username</title>
+					<type>d:text</type>					
+				</property>		
+			</properties>
+    </aspect>
+    
+    <!-- Admin Aspects   -->
+
+	<!--Admin File-->
+	<aspect name="skyplus:adminDocAspects">
+            <title>Admin File Aspect </title>
+            <properties>
+				<property name="skyplus:adminSubject">
+					<title>Subject</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>
+				<property name="skyplus:adminTitle">
+					<title>Title</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:adminYear">
+					<title>Year</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>		
+				<property name="skyplus:adminMonth">
+					<title>Month</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:adminDate">
+					<title>Date</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:adminDocType">
+					<title>Document Type</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:adminuserName">
+					<title>Username</title>
+					<type>d:text</type>					
+				</property>		
+			</properties>
+    </aspect>
+
+	<!--Minutes File-->
+	<aspect name="skyplus:minDocAspects">
+            <title>Admin File Aspect </title>
+            <properties>
+				<property name="skyplus:minCommittee">
+					<title>Committee</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>
+				<property name="skyplus:minTitle">
+					<title>Title</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:minYear">
+					<title>Year</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>		
+				<property name="skyplus:minMonth">
+					<title>Month</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:minDate">
+					<title>Date</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:minDocType">
+					<title>Document Type</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:minuserName">
+					<title>Username</title>
+					<type>d:text</type>					
+				</property>		
+			</properties>
+    </aspect>
+
+	<!--Tender File-->
+	<aspect name="skyplus:tenderDocAspects">
+            <title>Tender File Aspect </title>
+            <properties>
+				<property name="skyplus:tenderNo">
+					<title>Tender No</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>
+				<property name="skyplus:tenderName">
+					<title>Tender Name</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:tenderDesc">
+					<title>Description</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>				
+				<property name="skyplus:tenderDocType">
+					<title>Document Type</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:tenderuserName">
+					<title>Username</title>
+					<type>d:text</type>					
+				</property>		
+			</properties>
+    </aspect>
+
+	<!--Contract File-->
+	<aspect name="skyplus:contractDocAspects">
+            <title>Contract File Aspect </title>
+            <properties>
+				<property name="skyplus:contractParties">
+					<title>Parties</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>
+				<property name="skyplus:contractTitle">
+					<title>Title</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:contractFrom">
+					<title>Year</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>		
+				<property name="skyplus:contractTo">
+					<title>Year</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>			
+				<property name="skyplus:contractDocType">
+					<title>Document Type</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:contractuserName">
+					<title>Username</title>
+					<type>d:text</type>					
+				</property>		
+			</properties>
+    </aspect>
+
+	<!--Board Member File-->
+	<aspect name="skyplus:boardmemberDocAspects">
+            <title>Contract File Aspect </title>
+            <properties>
+				<property name="skyplus:boardmemberNo">
+					<title>Member No</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>
+				<property name="skyplus:boardmemberName">
+					<title>Member Name</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:boardmemberDocCategory">
+					<title>Document Category</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>
+				<property name="skyplus:boardmemberDocType">
+					<title>Document Type</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:boardmemberuserName">
+					<title>Username</title>
+					<type>d:text</type>					
+				</property>		
+			</properties>
+    </aspect>
+		
+
+		<!--ICT Request File-->
+	<aspect name="skyplus:ictstaffDocAspects">
+            <title>ICT Request File Aspect </title>
+            <properties>
+				<property name="skyplus:ictstaffNo">
+					<title>Ref No</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>
+				<property name="skyplus:ictstaffName">
+					<title>Staff Name</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:ictstaffDocType">
+					<title>Document Type</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:ictstaffuserName">
+					<title>Username</title>
+					<type>d:text</type>					
+				</property>		
+			</properties>
+    </aspect>
+
+	<!--Finance Purchase File-->
+	<aspect name="skyplus:finpurchDocAspects">
+            <title>Finance Purchase File Aspect </title>
+            <properties>
+				<property name="skyplus:finpurchRefNo">
+					<title>Ref No</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>				
+				<property name="skyplus:finpurchDocType">
+					<title>Document Type</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:finpurchuserName">
+					<title>Username</title>
+					<type>d:text</type>					
+				</property>		
+			</properties>
+    </aspect>
+
+	
+
+	<!--Finance Payment File-->
+	<aspect name="skyplus:finpaymentDocAspects">
+            <title>Finance Payment File Aspect </title>
+            <properties>
+				<property name="skyplus:finpaymentRefNo">
+					<title>Ref No</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>				
+				<property name="skyplus:finpaymentDocType">
+					<title>Document Type</title>
+					<type>d:text</type>
+					<mandatory>true</mandatory> 
+				</property>	
+				<property name="skyplus:finpaymentuserName">
+					<title>Username</title>
+					<type>d:text</type>					
+				</property>		
+			</properties>
+    </aspect>
+
+ </aspects>
+
+</model>

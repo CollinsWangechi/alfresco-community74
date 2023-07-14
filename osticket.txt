@@ -1,0 +1,153 @@
+Hello team, in the tutorial below, we will guide you through the installation of osTicket on XAMPP 8.1. This version of XAMPP includes PHP 8.1 and MySQL 8.0, which are the recommended versions for installing osTicket 1.18. The installation and configuration process is straightforward.
+
+osTicket is a ticketing system designed to efficiently manage customer support inquiries for organizations. It offers various features such as ticket management, email integration, ticket queues and assignments, a knowledge base, customizable ticket forms, ticket filters and escalation, collaboration through internal notes, reporting and analytics, multilingual support, and extensibility through plugins and extensions. These features allow businesses to centralize their support operations, improve customer communication, track performance metrics, and resolve customer issues effectively.
+
+Installation of osTicket:
+1. Start by installing XAMPP 8.1. During installation, create a folder named "xampp-8.1" if you have another version of XAMPP installed. If you already have XAMPP or Alfresco running, ensure you change the port numbers before starting Apache or MySQL.
+2. Download the "osticket" folder and extract it. Place the "upload" folder in the "xamp/htdocs/osticket" directory along with the script folder.
+3. Set a password for MySQL on the command prompt using the following steps:
+   a. Open xampp control panel, then shelll and enter the command: mysql -h localhost -u root -p
+   b. When prompted, enter the password for the "root" user (press enter if you have no password).
+   c. Execute the following command to set the password: SET PASSWORD FOR 'root'@'localhost' = PASSWORD('yourpassword');
+4. Open the "config.inc.php" file located in "/xampp/phpmyadmin/" and make the following modifications:
+   a. Modify the following lines to set the authentication type and information:
+      $cfg['Servers'][$i]['auth_type'] = 'cookie';
+      $cfg['Servers'][$i]['user'] = 'root';
+      $cfg['Servers'][$i]['password'] = 'yourpassword';
+      $cfg['Servers'][$i]['extension'] = 'mysqli';
+      $cfg['Servers'][$i]['AllowNoPassword'] = false;
+      $cfg['Lang'] = '';
+
+      After logging into the database, create a database named "osticket" (failure to create this will result in an error during installation).
+5. Locate your "php.ini" file (e.g., C:/xampp/php/php.ini).
+6. If any of the following extensions are available, enable them by removing the semicolon(;)
+   - extension=imap
+   - extension=intl
+   - extension=opcache
+7. Open "php.ini" and add the following line at the end of the file: zend_extension=php_opcache.dll
+8. Rename "ost-sampleconfig.php" to "ost-config.php" in the same directory (e.g., C:\xampp-8.4\htdocs\osticket).
+9. Navigate to the directory "C:\xampp-8.4\htdocs\osticket" and execute the PowerShell command "icacls include\ost-config.php /reset". This grants permission to osTicket.
+To give write permission for the os-config.php file, go to the file, right click, then to security and and set the permissions as read only
+10. Start XAMPP and launch osTicket to begin the installation process.
+
+Please note that the pending issue relates to configuring emails. If anyone discovers a solution, kindly share it with the team.
+
+
+
+To configure email in osTicket v1.8, follow these steps:
+
+1. Download the Oauth2 Client plugin from https://osticket.com/download/, selecting the version that matches your osTicket installation. This plugin provides configurable OAuth2 authentication and authorization backends.
+
+2. Upload the downloaded .phar file to the `include/plugins` folder in your osTicket installation.
+
+3. Access the osTicket administration panel in your web browser. Log in using your admin credentials. Click on "Admin Panel" in the top-right corner.
+
+4. In the left sidebar, navigate to "Manage" and select "Add-Ons".
+
+5. Locate the plugin you uploaded in the list of installed plugins. Click the "Install" button next to the plugin.
+
+6. Follow any on-screen instructions to complete the installation process.
+
+7. After the plugin is installed, you may need to configure its settings or customize its functionality. Refer to the plugin's documentation for specific instructions.
+
+8. Enable POP/IMAP for Google and configure OAuth consent for Gmail by following the guide at https://docs.osticket.com/en/latest/OAuth2/Google%20Authorization%20Guide.html.
+
+9. In the osTicket administration panel, go to "Admin Panel," then "Emails." Click on your email address to open the email settings. Adjust the settings to enable email, referring to the attached screenshots.
+
+10. Test your email configuration to ensure it is working correctly.
+
+Please note that these steps provide a general outline for configuring email in osTicket. The specific process may vary depending on your osTicket version and the plugins you are using. Refer to the osTicket documentation and plugin documentation for detailed instructions and troubleshooting guidance.
+
+
+
+OSTICKET FEATURES:
+- The option to generate additional agents from different departments and allocate specific permissions.
+- Vendors can register an account to track their own issues.
+- Issues are categorized into different stages ranging from Low to High.
+- Data visualization to display the performance of each individual and the entire team.
+- Users can assign tasks to other agents.
+- Capabilities to create departments.
+- Ability to include a logo.
+- Excellent email system.
+- User-friendly interface.
+- Strong security measures.
+- Two-factor authentication (2FA) is available.
+- Password policy management, including enforcing variable characters and special keys.
+
+INSTALLING OS TICKET IN LINUX (RED HAT)
+
+INSTALL VIRTUALBOX OR LINUX
+
+1. Update the system and install the required library:
+   - Execute the following commands with sudo privileges:
+     - `sudo dnf -y update`
+     - `sudo dnf -y install libnsl`
+
+2. Download Xampp from the following link: 
+   - Visit https://www.apachefriends.org/download.html and download Xampp.
+
+3. Provide execution permissions to the Xampp package:
+   - Set the execution bit for the installer file using the following command:
+     - `chmod a+x xampp-linux-x64-*-installer.run`
+
+4. Run the Xampp installer:
+   - Execute the installer with sudo privileges:
+     - `sudo ./xampp-linux-x64-*-installer.run`
+   - Xampp will be installed in the directory: `/opt/lampp`
+
+5. Copy the OS Ticket 1.18 files to the appropriate location:
+   - Move the OS Ticket files to the `htdocs/osticket` directory.
+
+6. Extract the OS Ticket files:
+   - Unzip the OS Ticket files inside the `osticket` folder using the following command:
+     - `unzip example.zip -d /path/to/destination`
+
+7. Move all files from the `uploads` folder to the OS Ticket directory:
+   - Use the following command to move all files:
+     - `mv * /path/to/destination`
+
+8. Delete the `uploads` folder:
+   - Remove the `uploads` folder using the command:
+     - `rm -r myfolder`
+
+9. Rename the `ost-sampleconfig.php` file to `ost-config.php`:
+   - Use the `mv` command to rename the file:
+     - `mv oldname.txt newname.txt` or `mv /path/to/currentfile.txt /path/to/newfile.txt`
+
+10. Rename the `php.ini` file located in `/opt/lampp/etc`:
+    - Open the file using a text editor with sudo privileges, such as Vim:
+      - `sudo vim /opt/lampp/etc/php.ini`
+    - Add any required extensions to the file.
+
+11. Set the MySQL password using the shell:
+    - Navigate to the Xampp directory:
+      - `cd /opt/lampp`
+    - Start the MySQL shell with the root user and provide the password when prompted:
+      - `./bin/mysql -u root -p`
+    - Set the password for the 'root' user:
+      - `SET PASSWORD FOR 'root'@'localhost' = PASSWORD('yourpassword');`
+
+12. Modify the "config.inc.php" file located in "/xampp/phpmyadmin/":
+    - Open the file with a text editor and make the following changes:
+      - Set the authentication type and information:
+        - `$cfg['Servers'][$i]['auth_type'] = 'cookie';`
+        - `$cfg['Servers'][$i]['user'] = 'root';`
+        - `$cfg['Servers'][$i]['password'] = 'yourpassword';`
+        - `$cfg['Servers'][$i]['extension'] = 'mysqli';`
+        - `$cfg['Servers'][$i]['AllowNoPassword'] = false;`
+        - `$cfg['Lang'] = '';`
+
+13. Grant appropriate rights to `ost-config.php` file:
+    - Set the file permissions using the following command:
+      - `chmod 0666 include/ost-config.php`
+
+14. Start Xampp/Lampp:
+    - Use the following command to start Xampp/Lampp:
+      - `./lampp start`
+    - To add a Skyplus mail, follow the same steps as creating a mail for Google, but make the following changes:
+      - Set the hostname to: `mail.skyplus.co.ke`
+      - Set the incoming server port to: `imap:993` for IMAP or `POP:995` for POP
+      - Set the outgoing server port to: `smtp:465`
+      - Use Basic Authentication.
+
+

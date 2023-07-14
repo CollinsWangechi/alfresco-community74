@@ -1,0 +1,30 @@
+2023-07-10 14:18:10,505 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [main] Registered template processor freemarker for extension ftl
+2023-07-10 14:18:10,550 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [main] Registered script processor javascript for extension js
+2023-07-10 14:18:10,550 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [main] Registered template processor freemarker for extension ftl
+2023-07-10 14:18:10,555 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [main] Registered script processor javascript for extension js
+2023-07-10 14:18:19,885 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 383 Web Scripts (+0 failed), 401 URLs
+2023-07-10 14:18:19,885 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 8 Package Description Documents (+0 failed) 
+2023-07-10 14:18:19,885 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 0 Schema Description Documents (+0 failed) 
+2023-07-10 14:18:20,054 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [main] Initialised Surf Container Web Script Container (in 9498.412ms)
+2023-07-10 14:18:20,268 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [main] Registered template processor freemarker for extension ftl
+2023-07-10 14:18:20,268 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [main] Registered script processor javascript for extension js
+2023-07-10 14:18:20,426 INFO  [org.alfresco.web.site.servlet.AIMSFilter] [main] Initializing the AIMS filter.
+2023-07-10 14:18:20,426 INFO  [org.alfresco.web.site.servlet.AIMSFilter] [main] AIMS filter initialized.
+2023-07-10 14:24:51,925 INFO  [org.alfresco.web.site.EditionInterceptor] [http-nio-8080-exec-10] Successfully retrieved license information from Alfresco.
+2023-07-10 14:25:30,926 INFO  [org.alfresco.web.scripts.ImapServerStatus] [http-nio-8080-exec-8] Successfully retrieved IMAP server status from Alfresco: disabled
+2023-07-10 14:36:44,049 INFO  [org.alfresco.web.scripts.DictionaryQuery] [http-nio-8080-exec-10] Successfully retrieved Data Dictionary from Alfresco.
+2023-07-10 15:33:24,948 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [main] Registered template processor freemarker for extension ftl
+2023-07-10 15:33:24,975 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [main] Registered script processor javascript for extension js
+2023-07-10 15:33:24,978 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [main] Registered template processor freemarker for extension ftl
+2023-07-10 15:33:24,980 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [main] Registered script processor javascript for extension js
+2023-07-10 15:33:32,630 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 383 Web Scripts (+0 failed), 401 URLs
+2023-07-10 15:33:32,636 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 8 Package Description Documents (+0 failed) 
+2023-07-10 15:33:32,638 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] [main] Registered 0 Schema Description Documents (+0 failed) 
+2023-07-10 15:33:33,022 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] [main] Initialised Surf Container Web Script Container (in 8039.923ms)
+2023-07-10 15:33:33,324 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [main] Registered template processor freemarker for extension ftl
+2023-07-10 15:33:33,326 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [main] Registered script processor javascript for extension js
+2023-07-10 15:33:33,792 INFO  [org.alfresco.web.site.servlet.AIMSFilter] [main] Initializing the AIMS filter.
+2023-07-10 15:33:33,794 INFO  [org.alfresco.web.site.servlet.AIMSFilter] [main] AIMS filter initialized.
+2023-07-10 15:37:03,441 INFO  [org.alfresco.web.site.EditionInterceptor] [http-nio-8080-exec-2] Successfully retrieved license information from Alfresco.
+2023-07-10 15:38:29,933 INFO  [org.alfresco.web.scripts.ImapServerStatus] [http-nio-8080-exec-5] Successfully retrieved IMAP server status from Alfresco: disabled
+2023-07-10 15:39:02,074 INFO  [org.alfresco.web.scripts.DictionaryQuery] [http-nio-8080-exec-6] Successfully retrieved Data Dictionary from Alfresco.

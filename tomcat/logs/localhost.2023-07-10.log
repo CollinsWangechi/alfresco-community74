@@ -1,0 +1,24 @@
+10-Jul-2023 14:17:54.719 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+10-Jul-2023 14:17:54.745 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+10-Jul-2023 14:18:20.484 INFO [main] org.apache.catalina.core.ApplicationContext.log org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+10-Jul-2023 14:18:20.565 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Spring Surf Dispatcher Servlet'
+10-Jul-2023 14:18:28.435 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+10-Jul-2023 14:18:28.505 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+10-Jul-2023 14:18:34.635 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'alfreservices'
+10-Jul-2023 15:29:40.831 INFO [Thread-52] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Spring Surf Dispatcher Servlet'
+10-Jul-2023 15:29:40.974 INFO [Thread-52] org.apache.catalina.core.ApplicationContext.log org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+10-Jul-2023 15:29:41.170 INFO [Thread-52] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+10-Jul-2023 15:29:41.692 INFO [Thread-52] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'alfreservices'
+10-Jul-2023 15:29:41.747 INFO [Thread-52] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+10-Jul-2023 15:33:04.975 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+10-Jul-2023 15:33:05.002 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+10-Jul-2023 15:33:33.869 INFO [main] org.apache.catalina.core.ApplicationContext.log org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+10-Jul-2023 15:33:33.976 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Spring Surf Dispatcher Servlet'
+10-Jul-2023 15:33:38.639 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+10-Jul-2023 15:33:38.686 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+10-Jul-2023 15:33:44.283 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'alfreservices'
+10-Jul-2023 16:07:09.776 INFO [Thread-52] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Spring Surf Dispatcher Servlet'
+10-Jul-2023 16:07:09.943 INFO [Thread-52] org.apache.catalina.core.ApplicationContext.log org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+10-Jul-2023 16:07:09.981 INFO [Thread-52] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+10-Jul-2023 16:07:10.383 INFO [Thread-52] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'alfreservices'
+10-Jul-2023 16:07:10.467 INFO [Thread-52] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

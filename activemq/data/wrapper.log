@@ -1,0 +1,191 @@
+STATUS | wrapper  | 2023/07/05 10:43:58 | --> Wrapper Started as Console
+STATUS | wrapper  | 2023/07/05 10:43:58 | Launching a JVM...
+INFO   | jvm 1    | 2023/07/05 10:44:03 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2023/07/05 10:44:03 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2023/07/05 10:44:03 | 
+INFO   | jvm 1    | 2023/07/05 10:44:03 | Java Runtime: Oracle Corporation 17.0.4 C:\Program Files\Java\jdk-17.0.4
+INFO   | jvm 1    | 2023/07/05 10:44:03 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2023/07/05 10:44:03 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=oUdNMANMX_AzbFHq -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=6404 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2023/07/05 10:44:03 | Extensions classpath:
+INFO   | jvm 1    | 2023/07/05 10:44:03 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2023/07/05 10:44:03 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2023/07/05 10:44:03 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2023/07/05 10:44:03 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2023/07/05 10:44:03 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2023/07/05 10:44:11 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2023/07/05 10:44:13 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\alfresco-community74\activemq\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2023/07/05 10:44:13 |  INFO | PListStore:[C:\alfresco-community74\activemq\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2023/07/05 10:44:13 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:C0llo-50802-1688543053724-0:1) is starting
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  INFO | Listening for connections at: tcp://C0llo:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  INFO | Listening for connections at: amqp://C0llo:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  INFO | Listening for connections at: stomp://C0llo:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  INFO | Listening for connections at: mqtt://C0llo:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@2fa6feed{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  INFO | Listening for connections at ws://C0llo:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  INFO | Connector ws started
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:C0llo-50802-1688543053724-0:1) started
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\alfresco-community74\activemq\bin\win64\..\..\data\kahadb only has 41600 mb of usable space. - resetting to maximum available disk space: 41600 mb
+INFO   | jvm 1    | 2023/07/05 10:44:14 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\alfresco-community74\activemq\bin\win64\..\..\data only has 41600 mb of usable space. - resetting to maximum available disk space: 41600 mb
+INFO   | jvm 1    | 2023/07/05 10:44:17 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2023/07/05 10:44:17 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2023/07/05 14:59:36 | --> Wrapper Started as Console
+STATUS | wrapper  | 2023/07/05 14:59:36 | Launching a JVM...
+INFO   | jvm 1    | 2023/07/05 14:59:41 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2023/07/05 14:59:41 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2023/07/05 14:59:41 | 
+INFO   | jvm 1    | 2023/07/05 14:59:41 | Java Runtime: Oracle Corporation 17.0.4 C:\Program Files\Java\jdk-17.0.4
+INFO   | jvm 1    | 2023/07/05 14:59:41 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2023/07/05 14:59:41 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=jm8b7TU9inFtGtm4 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=9048 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2023/07/05 14:59:41 | Extensions classpath:
+INFO   | jvm 1    | 2023/07/05 14:59:41 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2023/07/05 14:59:41 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2023/07/05 14:59:41 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2023/07/05 14:59:41 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2023/07/05 14:59:41 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2023/07/05 14:59:48 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2023/07/05 14:59:50 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\alfresco-community74\activemq\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2023/07/05 14:59:50 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2023/07/05 14:59:50 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2023/07/05 14:59:50 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2023/07/05 14:59:50 |  INFO | PListStore:[C:\alfresco-community74\activemq\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2023/07/05 14:59:50 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:C0llo-52993-1688558390682-0:1) is starting
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  INFO | Listening for connections at: tcp://C0llo:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  INFO | Listening for connections at: amqp://C0llo:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  INFO | Listening for connections at: stomp://C0llo:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  INFO | Listening for connections at: mqtt://C0llo:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@4f936043{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  INFO | Listening for connections at ws://C0llo:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  INFO | Connector ws started
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:C0llo-52993-1688558390682-0:1) started
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\alfresco-community74\activemq\bin\win64\..\..\data\kahadb only has 43163 mb of usable space. - resetting to maximum available disk space: 43163 mb
+INFO   | jvm 1    | 2023/07/05 14:59:51 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\alfresco-community74\activemq\bin\win64\..\..\data only has 43163 mb of usable space. - resetting to maximum available disk space: 43163 mb
+INFO   | jvm 1    | 2023/07/05 14:59:53 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2023/07/05 14:59:53 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2023/07/05 16:19:40 | CTRL-C trapped.  Shutting down.
+STATUS | wrapper  | 2023/07/05 16:19:40 | CTRL-C trapped.  Forcing immediate shutdown.
+INFO   | jvm 1    | 2023/07/05 16:19:41 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:C0llo-52993-1688558390682-0:1) is shutting down
+INFO   | jvm 1    | 2023/07/05 16:19:41 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2023/07/05 16:19:41 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2023/07/05 16:19:41 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2023/07/05 16:19:41 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2023/07/05 16:19:41 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2023/07/05 16:19:41 |  INFO | Could not accept connection during shutdown  : null (null)
+INFO   | jvm 1    | 2023/07/05 16:19:41 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2023/07/05 16:19:41 |  INFO | PListStore:[C:\alfresco-community74\activemq\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2023/07/05 16:19:41 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2023/07/05 16:19:41 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2023/07/05 16:19:41 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2023/07/05 16:19:41 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:C0llo-52993-1688558390682-0:1) uptime 1 hour 19 minutes
+INFO   | jvm 1    | 2023/07/05 16:19:41 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:C0llo-52993-1688558390682-0:1) is shutdown
+STATUS | wrapper  | 2023/07/05 16:19:42 | <-- Wrapper Stopped
+STATUS | wrapper  | 2023/07/07 12:37:41 | --> Wrapper Started as Console
+STATUS | wrapper  | 2023/07/07 12:37:41 | Launching a JVM...
+INFO   | jvm 1    | 2023/07/07 12:37:47 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2023/07/07 12:37:47 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2023/07/07 12:37:47 | 
+INFO   | jvm 1    | 2023/07/07 12:37:47 | Java Runtime: Oracle Corporation 17.0.4 C:\Program Files\Java\jdk-17.0.4
+INFO   | jvm 1    | 2023/07/07 12:37:47 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2023/07/07 12:37:47 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=tHB_GOXotsMEcDRQ -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=11504 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2023/07/07 12:37:47 | Extensions classpath:
+INFO   | jvm 1    | 2023/07/07 12:37:47 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2023/07/07 12:37:47 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2023/07/07 12:37:47 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2023/07/07 12:37:47 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2023/07/07 12:37:47 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2023/07/07 12:37:55 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2023/07/07 12:37:56 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\alfresco-community74\activemq\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2023/07/07 12:37:57 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2023/07/07 12:37:57 |  INFO | PListStore:[C:\alfresco-community74\activemq\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2023/07/07 12:37:57 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:C0llo-51719-1688722677577-0:1) is starting
+INFO   | jvm 1    | 2023/07/07 12:37:57 |  INFO | Listening for connections at: tcp://C0llo:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/07 12:37:57 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2023/07/07 12:37:57 |  INFO | Listening for connections at: amqp://C0llo:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/07 12:37:57 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2023/07/07 12:37:57 |  INFO | Listening for connections at: stomp://C0llo:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/07 12:37:57 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2023/07/07 12:37:57 |  INFO | Listening for connections at: mqtt://C0llo:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/07 12:37:57 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2023/07/07 12:37:57 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2023/07/07 12:37:58 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2023/07/07 12:37:58 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@682cc1dd{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2023/07/07 12:37:58 |  INFO | Listening for connections at ws://C0llo:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/07 12:37:58 |  INFO | Connector ws started
+INFO   | jvm 1    | 2023/07/07 12:37:58 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:C0llo-51719-1688722677577-0:1) started
+INFO   | jvm 1    | 2023/07/07 12:37:58 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2023/07/07 12:37:58 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\alfresco-community74\activemq\bin\win64\..\..\data\kahadb only has 32420 mb of usable space. - resetting to maximum available disk space: 32420 mb
+INFO   | jvm 1    | 2023/07/07 12:37:58 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\alfresco-community74\activemq\bin\win64\..\..\data only has 32420 mb of usable space. - resetting to maximum available disk space: 32420 mb
+INFO   | jvm 1    | 2023/07/07 12:37:59 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2023/07/07 12:37:59 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2023/07/10 14:13:43 | --> Wrapper Started as Console
+STATUS | wrapper  | 2023/07/10 14:13:43 | Launching a JVM...
+INFO   | jvm 1    | 2023/07/10 14:13:49 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2023/07/10 14:13:49 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2023/07/10 14:13:49 | 
+INFO   | jvm 1    | 2023/07/10 14:13:49 | Java Runtime: Oracle Corporation 17.0.4 C:\Program Files\Java\jdk-17.0.4
+INFO   | jvm 1    | 2023/07/10 14:13:49 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2023/07/10 14:13:49 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=J1NsqEPq6KF0hetw -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=11228 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2023/07/10 14:13:49 | Extensions classpath:
+INFO   | jvm 1    | 2023/07/10 14:13:49 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2023/07/10 14:13:49 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2023/07/10 14:13:49 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2023/07/10 14:13:49 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2023/07/10 14:13:49 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2023/07/10 14:14:01 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2023/07/10 14:14:04 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\alfresco-community74\activemq\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2023/07/10 14:14:05 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2023/07/10 14:14:05 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2023/07/10 14:14:05 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2023/07/10 14:14:06 |  INFO | PListStore:[C:\alfresco-community74\activemq\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2023/07/10 14:14:06 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:C0llo-56529-1688987646086-0:1) is starting
+INFO   | jvm 1    | 2023/07/10 14:14:06 |  INFO | Listening for connections at: tcp://C0llo:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/10 14:14:06 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2023/07/10 14:14:06 |  INFO | Listening for connections at: amqp://C0llo:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/10 14:14:06 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2023/07/10 14:14:06 |  INFO | Listening for connections at: stomp://C0llo:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/10 14:14:06 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2023/07/10 14:14:06 |  INFO | Listening for connections at: mqtt://C0llo:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/10 14:14:06 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2023/07/10 14:14:06 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2023/07/10 14:14:06 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2023/07/10 14:14:07 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@52522bfc{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2023/07/10 14:14:07 |  INFO | Listening for connections at ws://C0llo:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/07/10 14:14:07 |  INFO | Connector ws started
+INFO   | jvm 1    | 2023/07/10 14:14:07 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:C0llo-56529-1688987646086-0:1) started
+INFO   | jvm 1    | 2023/07/10 14:14:07 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2023/07/10 14:14:07 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\alfresco-community74\activemq\bin\win64\..\..\data\kahadb only has 31893 mb of usable space. - resetting to maximum available disk space: 31893 mb
+INFO   | jvm 1    | 2023/07/10 14:14:07 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\alfresco-community74\activemq\bin\win64\..\..\data only has 31893 mb of usable space. - resetting to maximum available disk space: 31893 mb
+INFO   | jvm 1    | 2023/07/10 14:14:10 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2023/07/10 14:14:10 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2023/07/10 16:07:40 | CTRL-C trapped.  Shutting down.
+STATUS | wrapper  | 2023/07/10 16:07:40 | CTRL-C trapped.  Forcing immediate shutdown.
+INFO   | jvm 1    | 2023/07/10 16:07:41 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:C0llo-56529-1688987646086-0:1) is shutting down
+INFO   | jvm 1    | 2023/07/10 16:07:41 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2023/07/10 16:07:41 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2023/07/10 16:07:41 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2023/07/10 16:07:41 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2023/07/10 16:07:41 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2023/07/10 16:07:41 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2023/07/10 16:07:41 |  INFO | Could not accept connection during shutdown  : null (null)
+INFO   | jvm 1    | 2023/07/10 16:07:41 |  INFO | Could not accept connection during shutdown  : null (null)
+INFO   | jvm 1    | 2023/07/10 16:07:41 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2023/07/10 16:07:41 |  INFO | PListStore:[C:\alfresco-community74\activemq\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2023/07/10 16:07:41 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2023/07/10 16:07:41 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2023/07/10 16:07:41 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2023/07/10 16:07:41 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:C0llo-56529-1688987646086-0:1) uptime 1 hour 53 minutes
+INFO   | jvm 1    | 2023/07/10 16:07:41 |  INFO | Apache ActiveMQ 5.17.0 (localhost, ID:C0llo-56529-1688987646086-0:1) is shutdown
+STATUS | wrapper  | 2023/07/10 16:07:42 | <-- Wrapper Stopped
